@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "413938733458",
+    "firebase_url": "https://animebacground.firebaseio.com",
+    "project_id": "animebacground",
+    "storage_bucket": "animebacground.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413938733458:android:31a6764ac7f83fb070b14b",
+        "android_client_info": {
+          "package_name": "com.example.animebacground"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413938733458-tri5bf2iqken6qdj4svec3s4pp38rkh1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.animebacground",
+            "certificate_hash": "456420cc35f962e36ee99b5f0e91ef6a41e8440b"
+          }
+        },
+        {
+          "client_id": "413938733458-v4qfhnpn410bptrjgtua9fitkg3rlrvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTx1sxETo2YcPCr2PaMG8I1H1SIiNg_Zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413938733458-v4qfhnpn410bptrjgtua9fitkg3rlrvl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
