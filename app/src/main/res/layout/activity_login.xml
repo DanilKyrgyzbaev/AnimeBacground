@@ -26,6 +26,7 @@
             android:textStyle="italic" />
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/email_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -47,9 +48,11 @@
 
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            app:passwordToggleEnabled="true"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -66,12 +69,13 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
+            android:id="@+id/login_Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:background="@color/colorAccent"
+            android:background="@drawable/btn_bacground"
             android:text="@string/text_login"
-            android:textColor="@color/colorPrimary" />
+            android:textColor="@color/white" />
 
 
 
@@ -81,11 +85,55 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_marginTop="16dp"
-            android:textSize="18sp"
+            android:textSize="16sp"
+            android:background="#00FFFFFF"
             android:textStyle="normal"
             android:textColor="@color/dim_gray"
-            android:text="No account yet? Create one"/>
+            android:text="New Here? Create Account"/>
 
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="32dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/image_btn_google"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_google_logo"
+                android:background="#00FFFFFF"/>
+
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/image_btn_facebook"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="20dp"/>
+
+
+
+            <ImageButton
+                android:id="@+id/image_btn_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:background="#00000000"
+                android:src="@drawable/ic_call" />
+
+            <ImageButton
+                android:id="@+id/image_btn_twitter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:background="#00000000"
+                android:src="@drawable/ic_twitter" />
+
+
+
+        </LinearLayout>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
